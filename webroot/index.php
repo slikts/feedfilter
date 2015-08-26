@@ -58,14 +58,13 @@ if (count($request_parts) > 1 && $request_parts[0] === 'module') {
 	$feed = !empty($request_parts[2]) ? feed_id_decode($request_parts[2]) : NULL;
 	$args = array(
 		'module' => $module, 
-		'title' => 'feed',
 		'filters' => get_filters($module),
 		'feed' => $feed,
 		'feed_cats' => get_feed_cats($feed)
 	);
 
 	if ($feed) {
-		$args['title'] = feed_id_encode($feed);
+		$args['title'] = module_name($module) . ' ' . feed_id_encode($feed);
 		$args['feed_items'] = get_feed_items($module, $feed);
 		template('module', $args);
 	} else {

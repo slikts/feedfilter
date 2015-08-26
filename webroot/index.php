@@ -34,7 +34,7 @@ if (count($request_parts) > 1 && $request_parts[0] === 'module') {
 	if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 		if (empty($_POST)) {
-			message('nothing to do');
+			message('nothing selected');
 			header('Location: ' . $_SERVER['REQUEST_URI']);
 
 			return;

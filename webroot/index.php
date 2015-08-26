@@ -5,7 +5,7 @@ ob_start('ob_gzhandler');
 
 require(__DIR__ . '/../src/feedfilter.php');
 
-header("Content-Type: text/plain; charset=ISO-8859-1");
+header("Content-Type: text/html; charset=ISO-8859-1");
 
 session_start();
 

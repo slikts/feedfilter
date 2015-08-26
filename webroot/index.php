@@ -68,7 +68,7 @@ if (count($request_parts) > 1 && $request_parts[0] === 'module') {
 		$args['feed_items'] = get_feed_items($module, $feed);
 		template('module', $args);
 	} else {
-		$args['title'] = 'new feed';
+		$args['title'] = module_name($module);
 		template('module', $args);
 	}
 }

@@ -6,6 +6,7 @@ namespace feedfilter;
 	<head>
 		<title><?=$args['title']?></title>
 		<link rel="icon" type="image/png" href="<?=WWW_ROOT?>/favicon.ico">
+		<link rel="stylesheet" type="text/css" media="screen,projection" href="<?=WWW_ROOT?>/static/css/screen.css">
 	</head>
 	<body id="page-id-<?=$part?>">
 		<div id="page-wrap">

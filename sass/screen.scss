@@ -1,1 +1,12 @@
-@import "compass/reset";
+//@import "compass/reset";
+
+body, th, td {
+	font-family: 'Arial', sans-serif;
+}
+
+.header-title {
+	span {
+		position: absolute;
+		text-indent: 10px;
+	}
+}

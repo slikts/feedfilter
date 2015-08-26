@@ -1,0 +1,10 @@
+/* line 3, ../../sass/screen.scss */
+body, th, td {
+  font-family: 'Arial', sans-serif;
+}
+
+/* line 8, ../../sass/screen.scss */
+.header-title span {
+  position: absolute;
+  text-indent: 10px;
+}

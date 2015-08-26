@@ -5,6 +5,8 @@ ob_start('ob_gzhandler');
 
 require(__DIR__ . '/../src/feedfilter.php');
 
+header('Content-Type', 'text/html; charset=UTF-8');
+
 session_start();
 
 $request_uri = $_SERVER['REQUEST_URI'];

@@ -2,7 +2,6 @@
 namespace feedfilter;
 
 ?>
-<h2><?=module_name($args['module'])?></h2>
 
 <div id="feed-form" class="form-wrap<? if ($args['feed']) : ?> feed-hide<? endif; ?>">
 	<? if ($args['feed']) : ?>

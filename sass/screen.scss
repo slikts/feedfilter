@@ -10,3 +10,84 @@ body, th, td {
 		text-indent: 10px;
 	}
 }
+
+table {
+	border-collapse: collapse;
+}
+
+td, th {
+	border-bottom: 1px solid #eee;
+	padding: .15em .5em;
+	&:first-child {
+		padding-left: 0;
+	}
+	&:last-child {
+		padding-right: 0;
+	}
+}
+
+#page-footer {
+	padding-top: 2em;
+	clear: both;
+}
+
+.cat-list {
+	tbody {
+		tr:hover {
+			background: #eee;
+		}
+	}
+	td, th {
+		padding: 0;
+	}
+	label {
+		display: block;
+		padding: .15em .5em;
+		cursor: pointer;
+	}
+	.checkboxes {
+		label {
+			padding: 0;
+		}
+	}
+}
+
+button,
+input[type=submit] {
+	cursor: pointer;
+}
+.feed-edit button,
+p.save input {
+	padding: .15em 4em;
+}
+
+.form-wrap {
+	float: left;
+}
+
+#messages {
+	list-style: none;
+	&, li {
+		margin: 0;
+		padding: 0;
+	}
+	li {
+		color: #f06;
+	}
+}
+.feed-edit {
+	display: none;
+}
+
+.feed-hide {
+	.feed-edit {
+		display: block;
+	}
+	form {
+		display: none;
+	}
+}
+
+.feed-items {
+	clear: both;
+}

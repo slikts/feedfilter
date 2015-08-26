@@ -1,6 +1,7 @@
 <?
 define('DSN', 'pgsql:dbname=postgres user=slikts host=localhost');
-define('DB_TABLE', 'scraped');
+define('SCRAPE_TABLE', 'scraped');
+define('FEED_TABLE', 'feeds');
 define('WWW_ROOT', '/feedfilter/webroot');
 define('STATIC_ROOT', WWW_ROOT . '/static');
 define('TOOL_NAME', 'feedfilter');

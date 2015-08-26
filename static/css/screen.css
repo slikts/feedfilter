@@ -8,3 +8,97 @@ body, th, td {
   position: absolute;
   text-indent: 10px;
 }
+
+/* line 14, ../../sass/screen.scss */
+table {
+  border-collapse: collapse;
+}
+
+/* line 18, ../../sass/screen.scss */
+td, th {
+  border-bottom: 1px solid #eee;
+  padding: .15em .5em;
+}
+/* line 21, ../../sass/screen.scss */
+td:first-child, th:first-child {
+  padding-left: 0;
+}
+/* line 24, ../../sass/screen.scss */
+td:last-child, th:last-child {
+  padding-right: 0;
+}
+
+/* line 29, ../../sass/screen.scss */
+#page-footer {
+  padding-top: 2em;
+  clear: both;
+}
+
+/* line 36, ../../sass/screen.scss */
+.cat-list tbody tr:hover {
+  background: #eee;
+}
+/* line 40, ../../sass/screen.scss */
+.cat-list td, .cat-list th {
+  padding: 0;
+}
+/* line 43, ../../sass/screen.scss */
+.cat-list label {
+  display: block;
+  padding: .15em .5em;
+  cursor: pointer;
+}
+/* line 49, ../../sass/screen.scss */
+.cat-list .checkboxes label {
+  padding: 0;
+}
+
+/* line 55, ../../sass/screen.scss */
+button,
+input[type=submit] {
+  cursor: pointer;
+}
+
+/* line 59, ../../sass/screen.scss */
+.feed-edit button,
+p.save input {
+  padding: .15em 4em;
+}
+
+/* line 64, ../../sass/screen.scss */
+.form-wrap {
+  float: left;
+}
+
+/* line 68, ../../sass/screen.scss */
+#messages {
+  list-style: none;
+}
+/* line 70, ../../sass/screen.scss */
+#messages, #messages li {
+  margin: 0;
+  padding: 0;
+}
+/* line 74, ../../sass/screen.scss */
+#messages li {
+  color: #f06;
+}
+
+/* line 78, ../../sass/screen.scss */
+.feed-edit {
+  display: none;
+}
+
+/* line 83, ../../sass/screen.scss */
+.feed-hide .feed-edit {
+  display: block;
+}
+/* line 86, ../../sass/screen.scss */
+.feed-hide form {
+  display: none;
+}
+
+/* line 91, ../../sass/screen.scss */
+.feed-items {
+  clear: both;
+}

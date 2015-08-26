@@ -7,8 +7,6 @@ random_emoji();
 
 ?>
 
-<h2>new feed</h2>
-
 <table>
 <tr>
 	<th>module</th>
@@ -18,7 +16,7 @@ random_emoji();
 <tr>
 	<td>
 		<strong>
-			<a href="<?=module_link($item['module'])?>"><?=$item['module']?>
+			<a href="<?=module_link($item['module'])?>"><?=module_name($item['module'])?>
 		</strong>
 	</td>
 	<td><?=$item['count']?></td>

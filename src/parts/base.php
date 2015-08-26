@@ -25,7 +25,6 @@ namespace feedfilter;
 				<?php require $template_part; ?>
 			</div>
 			<footer id="page-footer">
-				<hr>
 				<p><a href="<?=TOOL_URL?>"><?=TOOL_NAME?></a> <?=TOOL_VERSION?></p>
 			</footer>
 		</div>

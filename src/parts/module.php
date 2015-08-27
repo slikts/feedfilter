@@ -68,7 +68,7 @@ namespace feedfilter;
 	 ?>
 		<tr>
 			<td>
-				<a href="<?=$data->url?>">
+				<a href="<?=$data->url?>" rel="noreferrer">
 					<?=$data->title?>
 				</a>
 			</td>
